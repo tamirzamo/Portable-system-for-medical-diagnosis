@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/zombutton"
+        android:layout_width="140.5dp"
+        android:layout_height="90.5dp"
+        android:id="@+id/zombut"
+        android:adjustViewBounds="false"
+        android:fadingEdge="none"
+        android:focusableInTouchMode="true"
+        android:foregroundGravity="clip_horizontal|right"
+        android:importantForAutofill="no"
+        android:layout_gravity="right" />
+    <ImageView
+        android:src="@drawable/hum"
+        android:layout_width="377.0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/humpic"
+        android:fadingEdge="none"
+        android:importantForAutofill="yes"
+        android:layout_gravity="start" />
+</LinearLayout>
